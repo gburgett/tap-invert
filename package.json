@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Inverts STDOUT lines in Tap output so they come after the assertion line",
   "main": "index.js",
-  "scripts": {
-    "test": "npm run test"
-  },
+  "bin": "index.js",
+  "scripts": {},
   "author": "gburgett (gordon@gordonburgett.net)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tap-parser": "^7.0.0"
+  },
+  "devDependencies": {}
 }
